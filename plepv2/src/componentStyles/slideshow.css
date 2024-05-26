@@ -1,0 +1,13 @@
+img {
+  object-fit: cover;
+  width: 100%;
+}
+#slideshow {
+  height: 40rem;
+}
+
+@media screen and (max-width: 768px) {
+  #slideshow {
+    height: 15rem;
+  }
+}
