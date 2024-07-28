@@ -12,7 +12,7 @@
   "dependencies": {
     "@auth0/auth0-react": "^2.2.4",
     "alpinejs": "^3.13.10",
-    "axios": "^1.6.8",
+    "axios": "^1.7.2",
     "flowbite": "^2.3.0",
     "flowbite-react": "^0.9.0",
     "framer-motion": "^11.2.6",

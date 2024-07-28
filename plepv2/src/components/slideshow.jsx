@@ -56,7 +56,7 @@ export const Slideshow = ({ userState }) => {
       <div className='absolute inset-x-0 flex justify-center bottom-10'>
         <button
           onClick={handleButtonClick}
-          className='px-4 py-2 text-base font-semibold text-white transition-transform duration-300 transform bg-blue-600 rounded-full shadow-lg bg-opacity-80 hover:bg-blue-700 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 sm:px-6 sm:py-3 sm:text-lg md:px-8 md:py-4 md:text-xl lg:px-10 lg:py-5 lg:text-2xl'
+          className='px-1 py-1 text-base font-semibold text-white transition-transform duration-300 transform bg-blue-600 rounded-full shadow-lg bg-opacity-80 hover:bg-blue-700 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 sm:px-6 sm:py-3 sm:text-lg md:px-8 md:py-4 md:text-xl lg:px-10 lg:py-5 lg:text-2xl'
         >
           Find Restaurants Near Me
         </button>

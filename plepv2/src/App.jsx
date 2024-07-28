@@ -15,7 +15,7 @@ import LoginScreen from './components/Login.jsx'
 import SignupScreen from './components/Register.jsx'
 
 function App () {
-  const [signedIn, setSignedIn] = useState(false)
+  const [signedIn, setSignedIn] = useState(true)
 
   useEffect(() => {
     const loggedIn = localStorage.getItem('signedIn')

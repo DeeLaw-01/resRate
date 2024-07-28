@@ -46,6 +46,9 @@ const SignupScreen = () => {
 
       setSuccess(response.data.message)
       setError('')
+      setTimeout(() => {
+        window.location.href = '/login'
+      }, 300)
     } catch (error) {
       if (error.response && error.response.data && error.response.data.error) {
         setError(error.response.data.error)

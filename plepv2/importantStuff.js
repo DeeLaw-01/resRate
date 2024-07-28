@@ -2,7 +2,7 @@
 const backendPort = 5000
 const backendHost = '192.168.100.16'
 const backendUrl = `http://${backendHost}:${backendPort}`
-const mapDataKey = '688aa451e6msh3b4dd748a54166cp161490jsn2f833e18d442'
+const mapDataKey = '390a81808amshb88e1c66b12bc8bp178ad7jsn1aa6db6c1036'
 const mapDataHost = 'maps-data.p.rapidapi.com'
 
 // Api calls:

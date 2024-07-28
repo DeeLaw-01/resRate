@@ -36,12 +36,11 @@ export const NearbyRestaurants = ({ userlocation }) => {
         }
         console.log('options:', options)
         try {
-          console.log('reached here')
           const response = await axios.request(options)
           console.log(response.data)
           setNearbyRestaurants(response.data)
         } catch (error) {
-          console.error('ERROR: Unable to fetch nearby restaurants')
+          console.error('ERROR: Unable to fetch nearby restaurants' + error)
         }
       }
       getNearbyRestaurants()
